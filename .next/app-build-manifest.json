@@ -1,0 +1,48 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-632c5c2513b7c3fa.js",
+      "static/chunks/4bd1b696-cd5670a7c67674cb.js",
+      "static/chunks/587-faffa0d36722bfb0.js",
+      "static/chunks/main-app-66ab1e650771dbb2.js",
+      "static/chunks/app/_not-found/page-1df555c4a6268409.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-632c5c2513b7c3fa.js",
+      "static/chunks/4bd1b696-cd5670a7c67674cb.js",
+      "static/chunks/587-faffa0d36722bfb0.js",
+      "static/chunks/main-app-66ab1e650771dbb2.js",
+      "static/css/5aa7af6db69326ea.css",
+      "static/chunks/app/layout-b9c4ae6ceaefd9a5.js"
+    ],
+    "/blockly/page": [
+      "static/chunks/webpack-632c5c2513b7c3fa.js",
+      "static/chunks/4bd1b696-cd5670a7c67674cb.js",
+      "static/chunks/587-faffa0d36722bfb0.js",
+      "static/chunks/main-app-66ab1e650771dbb2.js",
+      "static/css/0bdcbc4dbd30ea15.css",
+      "static/chunks/42d4cfa6-c9fc50ca397c3de0.js",
+      "static/chunks/905-43572e0b248e5254.js",
+      "static/chunks/977-beb66800ccaef8cf.js",
+      "static/chunks/app/blockly/page-afb8761361fc6769.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-632c5c2513b7c3fa.js",
+      "static/chunks/4bd1b696-cd5670a7c67674cb.js",
+      "static/chunks/587-faffa0d36722bfb0.js",
+      "static/chunks/main-app-66ab1e650771dbb2.js",
+      "static/chunks/970-bcaa0d673377b496.js",
+      "static/chunks/app/page-14ab1f71b8a7371a.js"
+    ],
+    "/standalone/page": [
+      "static/chunks/webpack-632c5c2513b7c3fa.js",
+      "static/chunks/4bd1b696-cd5670a7c67674cb.js",
+      "static/chunks/587-faffa0d36722bfb0.js",
+      "static/chunks/main-app-66ab1e650771dbb2.js",
+      "static/css/acd799ec929775fa.css",
+      "static/css/d527726566bc4ab1.css",
+      "static/chunks/977-beb66800ccaef8cf.js",
+      "static/chunks/app/standalone/page-e0367a04a4b3ef24.js"
+    ]
+  }
+}

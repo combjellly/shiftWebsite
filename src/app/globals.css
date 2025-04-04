@@ -1,0 +1,47 @@
+html, body, #__next {
+  width: 100vw;  /* Ensure full viewport width */
+  height: 100vh; /* Ensure full viewport height */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent unwanted scrollbars */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional: Centers content horizontally */
+  justify-content: center; /* Optional: Centers content vertically */
+  background-color: black;
+}
+
+#repl-container {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;  /* Take up full viewport width */
+  height: 95vh; /* Take up full viewport height */
+}
+
+.rotate-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          perspective: 1000px; /* Adds perspective to make the 3D rotation look more realistic */
+        }
+
+        .rotating-image {
+          display: block;
+          margin: auto;
+          animation: rotateImage 20s infinite ease-in-out; /* Slows down the animation to 20s */
+        }
+
+        @keyframes rotateImage {
+          0% {
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+          }
+          50% {
+            transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg); /* Midway point, where rotation is halfway */
+          }
+          100% {
+            transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); /* Full rotation */
+          }
+        }

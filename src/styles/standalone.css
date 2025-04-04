@@ -1,0 +1,235 @@
+
+body {
+  background-color: #191919;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 100%;
+
+}
+
+/* HIGHLUGHT CSS
+
+.plain,
+.text {
+  flex: 1 0 20rem;
+  position: relative;
+  outline: none;
+}
+
+
+.plain__highlights {
+  pointer-events: none;
+}
+
+[data-el="input"] {
+  border-width: 1px;
+  color: rgb(255, 255, 255);
+  caret-color: rgb(255, 255, 255);
+  white-space: break-spaces;
+  word-break: break-word;
+  resize: vertical;
+  background-color: #191919;
+  outline: none;
+  pointer-events: auto;
+}
+
+[data-el="input"][data-initialized="true"] {
+  color: transparent;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+}
+
+
+
+[data-el="highlight"] {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  white-space: break-spaces;
+  word-break: break-word;
+}
+
+.plain__highlights {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  border: 0px solid rgb(74, 74, 74);
+  pointer-events: none;
+  color: white;
+}
+
+.plain__highlights:focus {
+  outline: none;
+}
+
+.plain__editor,
+.plain__highlights {
+  width: 90%;
+  font-size: 2.1rem;
+  font-family: monospace;
+  margin: 0;
+  padding: 0.7rem 1.4ch;
+  line-height: 1.313;
+}
+
+.hljs-number {
+  color: #c792e9;
+}
+
+.hljs-string {
+  color: #d7cd6e;
+}
+
+.hljs-control {
+  color: #f92672;
+}
+
+.hljs-keyword {
+  color: #a4e02f;
+}
+
+.hlfs-symbol {
+  color: #88ddff;
+}
+
+*/ 
+
+textarea {
+  width: 80%;
+  height: 80%;
+  resize: none;
+  border: 2px dotted;
+  background-color: #191919;
+  color: white;
+  font-size: 20px;
+  outline: none;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+    outline: none;
+
+}
+
+textarea:focus {
+  outline: none;
+}
+
+side {
+  display: block;
+  margin-left: 3%;
+  margin-right: 5%;
+  margin-top: 15%;
+  font-family: 'Helvetica';
+  color: white;
+  font-size: 1.1em;
+  outline: none;
+}
+
+a {
+  font-family: 'Helvetica';
+  color: #490707;
+  font-size: 1.5em;
+}
+
+#codeBlock {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.buttonPlace {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+.buttonPlace button {
+  background: none;
+  border: none;
+  color: white; /* Keeps icon visible */
+  font-size: 80px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonPlace button:hover {
+  opacity: 0.7; /* Slight transparency on hover */
+}
+
+
+.btn-lg {
+  font-size: 3em;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: gray;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: red;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn:hover {
+  background-color: #2b9348;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
